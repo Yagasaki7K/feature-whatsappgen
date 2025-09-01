@@ -79,7 +79,7 @@ const Subtitle = styled.h2`
 const Label = styled.label`
   font-size: 0.875rem;
   font-weight: 500;
-  color: #e7fdf4;
+  color: #e5e5e5;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -93,11 +93,11 @@ const Input = styled.input`
   background: #272c35;
   padding: 0.75rem 1rem;
   font-size: 1rem;
-  color: #e7fdf4;
+  color: #e5e5e5;
   transition: all 0.3s ease;
 
   &::placeholder {
-    color: #8fbca9;
+    color: #e5e5e5;
   }
   &:focus {
     outline: none;
@@ -121,7 +121,7 @@ const Button = styled.button`
   padding: 0 2rem;
   width: 100%;
   background: linear-gradient(135deg, #f4a259, #b4621a);
-  color: #fff;
+  color: #e5e5e5;
   transition: transform 0.3s;
 
   &:hover {
