@@ -33,6 +33,10 @@ const Container = styled.div`
   padding: 1rem;
   width: 100%;
   max-width: 32rem;
+  
+  p {
+	color: #e5e5e5;
+  }
 `;
 
 const Card = styled.div`
